@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 from datetime import date, timedelta
 
+# Esta linha garante que os números aleatórios gerados sejam os mesmos 
+# a cada execução do código, permitindo reprodutibilidade dos resultados.
 np.random.seed(42)
 
 start_date = date(2023, 1, 1)
@@ -74,6 +76,7 @@ for current in all_dates:
 print(f"Income transactions generated: {len(income_transactions)}")
 print(f"Expense transactions generated: {len(expense_transactions)}")
 
+# O DataFrame cria uma tabela a partir de uma lista (dicionário)
 df_income = pd.DataFrame(income_transactions)
 df_expense = pd.DataFrame(expense_transactions)
 

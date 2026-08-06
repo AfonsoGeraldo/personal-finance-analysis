@@ -1,0 +1,262 @@
+Date,Category,Description,Amount,Type
+2023-01-01,Salary,Monthly salary,2224.84,Income
+2023-01-01,Entertainment,"Movies, concerts, etc.",416.39,Expense
+2023-01-04,Groceries,Grocery shopping,64.54,Expense
+2023-01-10,Groceries,Grocery shopping,67.18,Expense
+2023-01-12,Groceries,Grocery shopping,175.59,Expense
+2023-01-14,Groceries,Grocery shopping,14.2,Expense
+2023-01-24,Entertainment,"Movies, concerts, etc.",332.8,Expense
+2023-02-01,Salary,Monthly salary,2193.09,Income
+2023-02-03,Entertainment,"Movies, concerts, etc.",54.77,Expense
+2023-02-06,Groceries,Grocery shopping,101.3,Expense
+2023-02-09,Groceries,Grocery shopping,72.03,Expense
+2023-02-10,Entertainment,"Movies, concerts, etc.",57.72,Expense
+2023-02-14,Groceries,Grocery shopping,187.88,Expense
+2023-02-17,Groceries,Grocery shopping,180.02,Expense
+2023-02-26,Groceries,Grocery shopping,15.82,Expense
+2023-03-01,Entertainment,"Movies, concerts, etc.",436.18,Expense
+2023-03-01,Salary,Monthly salary,2238.69,Income
+2023-03-10,Bonus,Extra income,670.82,Income
+2023-03-15,Groceries,Grocery shopping,42.25,Expense
+2023-03-18,Entertainment,"Movies, concerts, etc.",373.47,Expense
+2023-03-26,Groceries,Grocery shopping,190.84,Expense
+2023-03-28,Utilities,"Electricity, water, internet bills",342.53,Expense
+2023-04-01,Salary,Monthly salary,2173.09,Income
+2023-04-07,Entertainment,"Movies, concerts, etc.",489.04,Expense
+2023-04-13,Groceries,Grocery shopping,71.67,Expense
+2023-04-16,Groceries,Grocery shopping,124.66,Expense
+2023-04-18,Utilities,"Electricity, water, internet bills",374.19,Expense
+2023-04-22,Entertainment,"Movies, concerts, etc.",330.79,Expense
+2023-04-22,Groceries,Grocery shopping,47.2,Expense
+2023-05-01,Salary,Monthly salary,2263.69,Income
+2023-05-02,Bonus,Extra income,457.52,Income
+2023-05-03,Groceries,Grocery shopping,130.3,Expense
+2023-05-09,Groceries,Grocery shopping,128.53,Expense
+2023-05-11,Utilities,"Electricity, water, internet bills",659.87,Expense
+2023-06-01,Salary,Monthly salary,2185.4,Income
+2023-06-03,Groceries,Grocery shopping,153.5,Expense
+2023-06-06,Groceries,Grocery shopping,188.02,Expense
+2023-06-13,Groceries,Grocery shopping,86.57,Expense
+2023-06-13,Bonus,Extra income,458.47,Income
+2023-06-19,Groceries,Grocery shopping,14.9,Expense
+2023-06-24,Groceries,Grocery shopping,158.34,Expense
+2023-07-01,Salary,Monthly salary,2212.99,Income
+2023-07-04,Entertainment,"Movies, concerts, etc.",219.75,Expense
+2023-07-05,Groceries,Grocery shopping,59.36,Expense
+2023-07-06,Utilities,"Electricity, water, internet bills",279.14,Expense
+2023-07-12,Bonus,Extra income,171.03,Income
+2023-07-14,Bonus,Extra income,212.57,Income
+2023-07-20,Entertainment,"Movies, concerts, etc.",60.7,Expense
+2023-07-21,Entertainment,"Movies, concerts, etc.",479.12,Expense
+2023-07-21,Groceries,Grocery shopping,23.54,Expense
+2023-07-25,Utilities,"Electricity, water, internet bills",128.06,Expense
+2023-08-01,Salary,Monthly salary,2239.09,Income
+2023-08-12,Groceries,Grocery shopping,41.31,Expense
+2023-08-18,Entertainment,"Movies, concerts, etc.",138.41,Expense
+2023-08-18,Bonus,Extra income,749.82,Income
+2023-08-23,Entertainment,"Movies, concerts, etc.",377.95,Expense
+2023-08-23,Groceries,Grocery shopping,154.59,Expense
+2023-08-29,Groceries,Grocery shopping,127.72,Expense
+2023-08-30,Groceries,Grocery shopping,121.76,Expense
+2023-08-31,Groceries,Grocery shopping,120.2,Expense
+2023-09-01,Salary,Monthly salary,2211.55,Income
+2023-09-03,Groceries,Grocery shopping,21.12,Expense
+2023-09-12,Utilities,"Electricity, water, internet bills",72.98,Expense
+2023-09-22,Groceries,Grocery shopping,63.62,Expense
+2023-09-25,Groceries,Grocery shopping,102.64,Expense
+2023-09-25,Entertainment,"Movies, concerts, etc.",50.07,Expense
+2023-09-27,Utilities,"Electricity, water, internet bills",680.6,Expense
+2023-09-29,Groceries,Grocery shopping,89.57,Expense
+2023-10-01,Salary,Monthly salary,2159.55,Income
+2023-10-11,Groceries,Grocery shopping,107.38,Expense
+2023-10-12,Groceries,Grocery shopping,159.39,Expense
+2023-10-17,Groceries,Grocery shopping,22.39,Expense
+2023-11-01,Salary,Monthly salary,2136.96,Income
+2023-11-02,Utilities,"Electricity, water, internet bills",581.77,Expense
+2023-11-04,Groceries,Grocery shopping,148.98,Expense
+2023-11-09,Bonus,Extra income,181.25,Income
+2023-11-19,Groceries,Grocery shopping,67.75,Expense
+2023-11-28,Utilities,"Electricity, water, internet bills",964.67,Expense
+2023-12-01,Salary,Monthly salary,2245.89,Income
+2023-12-02,Entertainment,"Movies, concerts, etc.",245.01,Expense
+2023-12-04,Entertainment,"Movies, concerts, etc.",453.39,Expense
+2023-12-07,Entertainment,"Movies, concerts, etc.",299.75,Expense
+2023-12-10,Groceries,Grocery shopping,182.83,Expense
+2023-12-17,Bonus,Extra income,166.11,Income
+2023-12-24,Entertainment,"Movies, concerts, etc.",23.68,Expense
+2023-12-25,Groceries,Grocery shopping,30.52,Expense
+2024-01-01,Salary,Monthly salary,2227.59,Income
+2024-01-03,Utilities,"Electricity, water, internet bills",654.58,Expense
+2024-01-04,Groceries,Grocery shopping,58.95,Expense
+2024-01-08,Groceries,Grocery shopping,77.41,Expense
+2024-01-10,Groceries,Grocery shopping,130.86,Expense
+2024-01-13,Entertainment,"Movies, concerts, etc.",222.58,Expense
+2024-01-19,Bonus,Extra income,733.77,Income
+2024-01-25,Entertainment,"Movies, concerts, etc.",329.99,Expense
+2024-01-30,Entertainment,"Movies, concerts, etc.",262.62,Expense
+2024-01-31,Entertainment,"Movies, concerts, etc.",34.86,Expense
+2024-02-01,Entertainment,"Movies, concerts, etc.",382.98,Expense
+2024-02-01,Salary,Monthly salary,2164.49,Income
+2024-02-10,Groceries,Grocery shopping,75.07,Expense
+2024-02-16,Groceries,Grocery shopping,100.35,Expense
+2024-03-01,Salary,Monthly salary,2215.55,Income
+2024-03-01,Groceries,Grocery shopping,177.86,Expense
+2024-03-02,Utilities,"Electricity, water, internet bills",503.0,Expense
+2024-03-05,Bonus,Extra income,428.06,Income
+2024-03-06,Entertainment,"Movies, concerts, etc.",498.95,Expense
+2024-03-07,Utilities,"Electricity, water, internet bills",750.98,Expense
+2024-03-11,Groceries,Grocery shopping,102.65,Expense
+2024-03-14,Groceries,Grocery shopping,191.47,Expense
+2024-03-15,Groceries,Grocery shopping,105.12,Expense
+2024-03-16,Groceries,Grocery shopping,23.85,Expense
+2024-03-18,Bonus,Extra income,778.92,Income
+2024-03-29,Utilities,"Electricity, water, internet bills",535.57,Expense
+2024-03-30,Groceries,Grocery shopping,62.47,Expense
+2024-03-31,Entertainment,"Movies, concerts, etc.",138.48,Expense
+2024-04-01,Salary,Monthly salary,2273.77,Income
+2024-04-05,Groceries,Grocery shopping,140.53,Expense
+2024-04-06,Utilities,"Electricity, water, internet bills",208.61,Expense
+2024-04-10,Entertainment,"Movies, concerts, etc.",192.82,Expense
+2024-04-13,Groceries,Grocery shopping,155.84,Expense
+2024-04-22,Entertainment,"Movies, concerts, etc.",201.97,Expense
+2024-04-23,Groceries,Grocery shopping,33.63,Expense
+2024-04-25,Groceries,Grocery shopping,98.18,Expense
+2024-04-28,Entertainment,"Movies, concerts, etc.",389.68,Expense
+2024-04-29,Utilities,"Electricity, water, internet bills",328.64,Expense
+2024-05-01,Salary,Monthly salary,2196.32,Income
+2024-05-01,Entertainment,"Movies, concerts, etc.",163.9,Expense
+2024-05-02,Utilities,"Electricity, water, internet bills",903.63,Expense
+2024-05-09,Groceries,Grocery shopping,79.48,Expense
+2024-05-16,Groceries,Grocery shopping,129.88,Expense
+2024-05-22,Groceries,Grocery shopping,170.29,Expense
+2024-05-27,Groceries,Grocery shopping,128.25,Expense
+2024-06-01,Salary,Monthly salary,2185.89,Income
+2024-06-02,Utilities,"Electricity, water, internet bills",58.59,Expense
+2024-06-06,Entertainment,"Movies, concerts, etc.",250.83,Expense
+2024-06-15,Entertainment,"Movies, concerts, etc.",37.29,Expense
+2024-06-16,Bonus,Extra income,345.41,Income
+2024-06-24,Groceries,Grocery shopping,188.75,Expense
+2024-06-29,Utilities,"Electricity, water, internet bills",445.74,Expense
+2024-07-01,Salary,Monthly salary,2185.93,Income
+2024-07-02,Entertainment,"Movies, concerts, etc.",370.09,Expense
+2024-07-09,Groceries,Grocery shopping,113.45,Expense
+2024-07-11,Groceries,Grocery shopping,60.41,Expense
+2024-07-22,Utilities,"Electricity, water, internet bills",847.05,Expense
+2024-07-23,Groceries,Grocery shopping,143.7,Expense
+2024-08-01,Salary,Monthly salary,2116.77,Income
+2024-08-01,Utilities,"Electricity, water, internet bills",690.32,Expense
+2024-08-02,Groceries,Grocery shopping,114.28,Expense
+2024-08-18,Groceries,Grocery shopping,190.77,Expense
+2024-08-20,Entertainment,"Movies, concerts, etc.",483.21,Expense
+2024-08-27,Groceries,Grocery shopping,120.76,Expense
+2024-08-30,Entertainment,"Movies, concerts, etc.",228.12,Expense
+2024-09-01,Salary,Monthly salary,2161.34,Income
+2024-09-02,Groceries,Grocery shopping,122.0,Expense
+2024-09-05,Groceries,Grocery shopping,57.19,Expense
+2024-09-08,Groceries,Grocery shopping,190.78,Expense
+2024-09-19,Groceries,Grocery shopping,67.2,Expense
+2024-09-23,Groceries,Grocery shopping,45.27,Expense
+2024-10-01,Salary,Monthly salary,2182.46,Income
+2024-10-07,Groceries,Grocery shopping,146.56,Expense
+2024-10-08,Utilities,"Electricity, water, internet bills",207.46,Expense
+2024-10-21,Utilities,"Electricity, water, internet bills",803.12,Expense
+2024-10-22,Groceries,Grocery shopping,100.11,Expense
+2024-10-23,Utilities,"Electricity, water, internet bills",737.27,Expense
+2024-10-28,Groceries,Grocery shopping,83.69,Expense
+2024-10-31,Groceries,Grocery shopping,133.18,Expense
+2024-11-01,Salary,Monthly salary,2250.31,Income
+2024-11-05,Utilities,"Electricity, water, internet bills",256.78,Expense
+2024-11-06,Utilities,"Electricity, water, internet bills",814.27,Expense
+2024-11-19,Groceries,Grocery shopping,142.27,Expense
+2024-11-28,Entertainment,"Movies, concerts, etc.",442.01,Expense
+2024-11-29,Entertainment,"Movies, concerts, etc.",340.09,Expense
+2024-12-01,Salary,Monthly salary,2171.16,Income
+2024-12-03,Groceries,Grocery shopping,28.03,Expense
+2024-12-06,Utilities,"Electricity, water, internet bills",392.41,Expense
+2024-12-08,Utilities,"Electricity, water, internet bills",776.14,Expense
+2024-12-25,Entertainment,"Movies, concerts, etc.",393.97,Expense
+2024-12-31,Groceries,Grocery shopping,90.43,Expense
+2025-01-01,Salary,Monthly salary,2264.35,Income
+2025-01-09,Groceries,Grocery shopping,83.26,Expense
+2025-01-20,Bonus,Extra income,710.49,Income
+2025-01-24,Groceries,Grocery shopping,89.54,Expense
+2025-02-01,Salary,Monthly salary,2177.77,Income
+2025-02-14,Groceries,Grocery shopping,175.43,Expense
+2025-02-15,Bonus,Extra income,333.45,Income
+2025-02-17,Entertainment,"Movies, concerts, etc.",159.9,Expense
+2025-02-27,Entertainment,"Movies, concerts, etc.",235.54,Expense
+2025-02-28,Groceries,Grocery shopping,147.67,Expense
+2025-03-01,Salary,Monthly salary,2188.45,Income
+2025-03-03,Bonus,Extra income,564.48,Income
+2025-03-05,Utilities,"Electricity, water, internet bills",835.52,Expense
+2025-03-07,Entertainment,"Movies, concerts, etc.",481.52,Expense
+2025-03-12,Groceries,Grocery shopping,146.05,Expense
+2025-03-14,Groceries,Grocery shopping,94.13,Expense
+2025-03-17,Groceries,Grocery shopping,40.93,Expense
+2025-03-22,Groceries,Grocery shopping,11.31,Expense
+2025-04-01,Salary,Monthly salary,2234.81,Income
+2025-04-03,Utilities,"Electricity, water, internet bills",835.22,Expense
+2025-04-07,Entertainment,"Movies, concerts, etc.",336.18,Expense
+2025-04-12,Groceries,Grocery shopping,141.48,Expense
+2025-04-13,Bonus,Extra income,172.88,Income
+2025-04-17,Groceries,Grocery shopping,98.67,Expense
+2025-04-22,Groceries,Grocery shopping,100.36,Expense
+2025-04-28,Bonus,Extra income,159.86,Income
+2025-05-01,Groceries,Grocery shopping,85.1,Expense
+2025-05-01,Salary,Monthly salary,2216.31,Income
+2025-05-02,Entertainment,"Movies, concerts, etc.",221.21,Expense
+2025-05-14,Groceries,Grocery shopping,61.68,Expense
+2025-05-14,Entertainment,"Movies, concerts, etc.",489.61,Expense
+2025-05-18,Entertainment,"Movies, concerts, etc.",309.69,Expense
+2025-05-24,Utilities,"Electricity, water, internet bills",678.63,Expense
+2025-05-26,Groceries,Grocery shopping,168.64,Expense
+2025-05-29,Utilities,"Electricity, water, internet bills",604.09,Expense
+2025-05-30,Groceries,Grocery shopping,159.6,Expense
+2025-06-01,Salary,Monthly salary,2137.44,Income
+2025-06-02,Bonus,Extra income,740.01,Income
+2025-06-06,Groceries,Grocery shopping,95.51,Expense
+2025-06-07,Groceries,Grocery shopping,50.11,Expense
+2025-06-10,Bonus,Extra income,195.82,Income
+2025-06-13,Groceries,Grocery shopping,16.59,Expense
+2025-06-28,Entertainment,"Movies, concerts, etc.",447.16,Expense
+2025-06-28,Groceries,Grocery shopping,165.49,Expense
+2025-07-01,Salary,Monthly salary,2228.7,Income
+2025-07-11,Utilities,"Electricity, water, internet bills",649.81,Expense
+2025-07-11,Groceries,Grocery shopping,25.5,Expense
+2025-07-14,Groceries,Grocery shopping,179.17,Expense
+2025-07-21,Groceries,Grocery shopping,61.67,Expense
+2025-07-22,Utilities,"Electricity, water, internet bills",742.34,Expense
+2025-07-27,Utilities,"Electricity, water, internet bills",726.53,Expense
+2025-07-28,Utilities,"Electricity, water, internet bills",563.28,Expense
+2025-08-01,Salary,Monthly salary,2112.32,Income
+2025-08-02,Groceries,Grocery shopping,43.61,Expense
+2025-08-10,Utilities,"Electricity, water, internet bills",320.31,Expense
+2025-08-17,Groceries,Grocery shopping,104.64,Expense
+2025-08-22,Utilities,"Electricity, water, internet bills",349.98,Expense
+2025-08-23,Groceries,Grocery shopping,155.64,Expense
+2025-09-01,Salary,Monthly salary,2129.74,Income
+2025-09-02,Groceries,Grocery shopping,164.61,Expense
+2025-09-07,Groceries,Grocery shopping,114.95,Expense
+2025-09-14,Groceries,Grocery shopping,100.6,Expense
+2025-09-20,Utilities,"Electricity, water, internet bills",983.4,Expense
+2025-09-21,Groceries,Grocery shopping,164.73,Expense
+2025-09-23,Groceries,Grocery shopping,123.9,Expense
+2025-10-01,Groceries,Grocery shopping,124.83,Expense
+2025-10-01,Salary,Monthly salary,2225.05,Income
+2025-10-10,Groceries,Grocery shopping,18.37,Expense
+2025-10-11,Bonus,Extra income,791.41,Income
+2025-10-11,Entertainment,"Movies, concerts, etc.",474.07,Expense
+2025-10-17,Groceries,Grocery shopping,137.38,Expense
+2025-10-18,Utilities,"Electricity, water, internet bills",368.6,Expense
+2025-10-24,Groceries,Grocery shopping,63.31,Expense
+2025-11-01,Salary,Monthly salary,2174.12,Income
+2025-11-10,Groceries,Grocery shopping,77.42,Expense
+2025-11-15,Entertainment,"Movies, concerts, etc.",258.19,Expense
+2025-11-16,Entertainment,"Movies, concerts, etc.",300.72,Expense
+2025-11-20,Groceries,Grocery shopping,173.72,Expense
+2025-11-26,Groceries,Grocery shopping,26.68,Expense
+2025-11-28,Entertainment,"Movies, concerts, etc.",331.7,Expense
+2025-11-29,Utilities,"Electricity, water, internet bills",196.09,Expense
+2025-12-01,Salary,Monthly salary,2170.05,Income
+2025-12-03,Entertainment,"Movies, concerts, etc.",130.92,Expense
+2025-12-19,Groceries,Grocery shopping,102.37,Expense

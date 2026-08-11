@@ -73,6 +73,36 @@ for current in all_dates:
             'Type': 'Expense'
         })
 
+    if current.day == 15:
+        expense_amount = np.random.normal(loc = 500, scale = 50)
+        expense_transactions.append({
+            'Date': current,
+            'Category': 'Housing',
+            'Description': 'Monthly housing payment',
+            'Amount': round(expense_amount, 2),
+            'Type': 'Expense'
+        })
+
+    if np.random.random() < 0.01:
+        expense_amount = np.random.uniform(100, 2000)
+        expense_transactions.append({
+            'Date': current,
+            'Category': 'Healthcare',
+            'Description': 'Medical expenses',
+            'Amount': round(expense_amount, 2),
+            'Type': 'Expense'
+        })
+
+    if np.random.random() < 0.25:
+        expense_amount = np.random.uniform(20, 50)
+        expense_transactions.append({
+            'Date': current,
+            'Category': 'Transportation',
+            'Description': 'Fuel, public transport, etc.',
+            'Amount': round(expense_amount, 2),
+            'Type': 'Expense'
+        })
+
 print(f"Income transactions generated: {len(income_transactions)}")
 print(f"Expense transactions generated: {len(expense_transactions)}")
 

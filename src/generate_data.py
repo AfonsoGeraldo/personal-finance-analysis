@@ -96,6 +96,7 @@ for current in all_dates:
     if np.random.random() < 0.25:
         expense_amount = np.random.uniform(20, 50)
         expense_transactions.append({
+            
             'Date': current,
             'Category': 'Transportation',
             'Description': 'Fuel, public transport, etc.',

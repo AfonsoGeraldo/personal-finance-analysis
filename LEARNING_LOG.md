@@ -1,32 +1,79 @@
-## 06/08/2026 — Personal Finance Analysis (Day 1)
+# Summary — Python/Pandas Functions and Concepts
 
-### What I did
-- Set up `personal-finance-analysis` project (structure, venv, Git init)
-- Built `src/generate_data.py`: generated 3 years of synthetic daily data (2023-2025)
-- Income: monthly salary (normal distribution) + random occasional bonuses
-- Expenses: Groceries, Entertainment, Utilities — daily probability check per category, amounts via uniform distribution (wrote this part myself)
-- Combined income + expenses into one DataFrame, sorted by date, saved to `data/transactions.csv`
+## Week 1 — Python (syntax and idiom)
 
-### New concepts
-- `np.random.uniform()` vs `np.random.normal()` — flat range vs. bell-curve distribution
-- `np.random.seed()` — reproducibility of "random" generation
-- `pd.DataFrame(list_of_dicts)` — building a DataFrame from a list of dictionaries
-- `pd.concat()` with `ignore_index=True`, `.reset_index(drop=True)`
-- `.to_csv(path, index=False)` — exporting a DataFrame, and why `index=False` matters
+### Control flow and error handling
+- `try / except ValueError as e` — catches conversion errors (e.g. `int("abc")`), lets you handle them without crashing
+- `while` with validation — combine type validation and range validation in the same loop
 
-## 11/08/2026 — Personal Finance Analysis (Day 2)
+### Functions
+- `def func(param, default=0):` — optional parameter with a default value (uses `=`, never `:`)
+- `*args` — receives a variable number of arguments as a **tuple**
+  - `len(args)` — counts how many arguments were passed
+  - Example: `def average(*args): return sum(args) / len(args)`
 
-### What I did
-- Introduced Git branches for the first time: created `feature/more-categories`, added Housing, Healthcare, and Transportation expense categories (wrote the code myself, adjusted Transportation frequency/amount after a sanity check), merged into `main`, pushed, deleted the branch
-- Regenerated data: 536 total transactions
-- Started the exploration notebook: converted `Date` to datetime, set it as index
-- Used `.resample('ME')` to get monthly totals — first for combined income+expenses, then separately for income and expenses
-- Calculated monthly net savings (income - expenses), which pandas aligned automatically by date
-- Used `.groupby('Category')` to see total spending by category, sorted descending
+### Data structures
+- **List** `[]` — ordered, mutable collection
+- **Tuple** `()` — ordered, **immutable** collection
+  - Direct unpacking in a loop: `for name, age in people:`
+- **Dictionary** `{}` — key-value pairs
+  - `.get(key, default)` — returns the value for a key, or a default if it doesn't exist (avoids `KeyError`)
+    - Counting pattern: `dict[key] = dict.get(key, 0) + 1`
+  - `.items()` — returns `(key, value)` pairs, allows unpacking: `for key, value in dict.items():`
+- **Set** `{}` (no `:`) — unordered collection, no duplicates
+  - `.intersection()` or `&` — elements in **both** sets
+  - `.difference()` or `-` — elements in one set but **not** the other
+  - `.union()` or `|` — combines two sets (no duplicates)
 
-### New concepts
-- `pd.to_datetime()` and setting a datetime column as index — needed for time-based operations
-- `.resample('ME')` — grouping rows into time buckets (monthly)
-- `.groupby('Category')` — same split-apply-combine idea as resample, but by column value instead of time
-- Index alignment: subtracting two Series with matching date indexes just works, no merge needed
-- Git branches end-to-end: `checkout -b`, commit, `checkout main`, `merge`, `push`, `branch -d`
+### Comprehensions
+- List: `[expression for item in iterable if condition]`
+- Dictionary: `{key: value for item in iterable if condition}`
+- Nested: `[word for sentence in sentences for word in sentence.split()]`
+
+### Strings
+- **f-string** (recommended): `f"{name}, {age}"` — automatic type conversion
+- `.format()`: `"{}, {}".format(name, age)` — also converts automatically
+- `+` (concatenation): **requires manual conversion** — `str(age)` before concatenating
+- `.split()` — splits a string into a list of words
+- `.capitalize()` — returns a new string with the first letter capitalized (doesn't modify the original)
+- `" ".join(iterable)` — joins elements of an iterable into a string, separated by a space
+
+**Important rule (came up repeatedly):** methods like `.capitalize()`, `.join()`, `.fillna()`, `.dropna()`, `.sort_values()` **don't modify the original object** — they return a new value. You need to assign the result to a variable to keep it.
+
+---
+
+## Week 2 — Pandas
+
+### Base structures
+- **Series** — single column, 1D. `df['column']` (single square brackets)
+- **DataFrame** — 2D table. `df[['column']]` (a list inside square brackets) returns a DataFrame even with 1 column
+
+### Selection and filtering
+- **Boolean filtering:** `df[df['column'] > value]`
+  - Multiple conditions: `df[(condition1) & (condition2)]` — use `&`/`|`/`~`, never `and`/`or`/`not`; parentheses required around each condition (due to operator precedence)
+- **`.loc[rows, columns]`** — selection by **label**; slicing **includes** the end value (`0:3` includes row 3)
+- **`.iloc[rows, columns]`** — selection by **position**; slicing **excludes** the end value (`0:3` excludes position 3, like normal lists)
+- Combined: `df.loc[condition, 'column']` — filters rows by condition, returns only the requested column
+
+### Aggregation
+- `df.groupby('column')['other_column'].sum()` — aggregates by group
+- `.agg(['sum', 'mean', 'count'])` — multiple aggregations at once
+- `df.groupby(['col1', 'col2'])` — groups by a combination of several columns (produces a **MultiIndex** in the result)
+
+### Missing values
+- `.isna()` — returns `True`/`False` per cell; **always use this to detect `NaN`**, never `== None` (comparisons with `NaN` don't behave as expected)
+- `.isna().sum()` — counts missing values in a column
+- `df.copy()` — creates an independent copy of a DataFrame (avoids accidentally changing the original)
+- `.dropna()` — removes rows with missing values
+  - No arguments: checks **all** columns
+  - `subset=['column']` — checks only the specified column
+- `.fillna(value)` — replaces missing values with a specific value
+  - Common options: fixed value (`0`), mean (`.mean()`), median (`.median()`), forward/backward fill
+  - Choice depends on context — filling with `0` isn't always appropriate (e.g. monetary values)
+
+---
+
+## Still to come (Week 2)
+- Merge/Join between DataFrames
+- Feature engineering (derived columns)
+- Close-out exercise: solo pipeline (read → clean → aggregate → export)
